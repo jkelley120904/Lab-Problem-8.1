@@ -8,15 +8,14 @@ int main(void)
 {
 	int numVowels = 0;
 	string str;
-	getline(cin, str);
-	cout << "Vowels " << countVowel(str);
-	/*while (true)
+	
+	while (true)
 	{
 		cout << "Enter a string or Q to quit: ";
 		getline(cin, str);
 		if (str == "Q" || str == "q") break;
-		cout << "Vowel count is: " << numVowels << endl;
-	}*/
+		cout << "Vowel count is: " << countVowel(str) << endl;
+	}
 }
 
 int countVowel(string str)
