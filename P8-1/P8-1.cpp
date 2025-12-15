@@ -18,6 +18,7 @@ int main(void)
 	}
 }
 
+// Calulates the number of vowels in a string
 int countVowel(string str)
 {
 	int numVowels = 0;
